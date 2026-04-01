@@ -1,6 +1,6 @@
 # Imputation Classifier 
 ## Results and Figures
-In the _results and figures_ folder you will find the relevant results and figures discussed in the paper.
+In the _results and figures_ folder you will find the relevant recent results and figures in '/new? directory.
 
 ## Scripts
 In the _src_ folder you will find the code for this project. In the following, brief descriptions of the most relevant scripts and folders are provided.
@@ -104,7 +104,7 @@ python combine_new_prova.py
 
 ---
 
-### 3. Train and Validate Binary Classifiers (Section 5.3)
+### 3. Train and Validate Binary Classifiers 
 
 Trains one Random Forest binary classifier per downstream task (14 total: 7 tasks × 2 column types) to predict whether more than four imputation methods are equivalent for a given column profile. Also produces the Partial Dependence Plots (Figures 3 and 4 in the paper).
 
@@ -117,7 +117,7 @@ python binary_classifiers.py
 
 ---
 
-### 4. Train and Validate Specialized Classifiers (Section 5.4)
+### 4. Train and Validate Specialized Classifiers 
 
 Trains and validates the specialized classifiers that recommend the best imputation method given a column profile and a downstream classification task. Also computes SHAP feature importances (Figures 5 and 6).
 
@@ -160,7 +160,7 @@ python classifiers_validation.py
 
 ---
 
-### 6. Ordering Analysis (Section 5.6)
+### 6. Ordering Analysis 
 
 Investigates the effect of the order in which the suggested imputation methods are applied across columns (A2 approach). Tries all permutations of 4 suggested methods over 50 different seeds.
 
