@@ -1,6 +1,6 @@
 # Imputation Classifier 
 ## Results and Figures
-In the _results and figures_ folder you will find the relevant recent results and figures in '/new? directory.
+In the _results and figures_ folder you will find the relevant recent results and figures in '/new' directory.
 
 ## Scripts
 In the _src_ folder you will find the code for this project. In the following, brief descriptions of the most relevant scripts and folders are provided.
