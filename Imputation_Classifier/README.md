@@ -1,4 +1,4 @@
-# CompletenessClassifier (Source Code)
+# Imputation Classifier 
 ## Results and Figures
 In the _results and figures_ folder you will find the relevant results and figures discussed in the paper.
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-### 1. Knowledge Base Enrichment (Section 4.1)
+### 1. Knowledge Base Enrichment
 
 This is the most computationally intensive step. It runs experiments on all training datasets, injecting missing values into each selected column, applying all imputation methods, training all downstream classifiers, and recording the F1 scores.
 
@@ -140,7 +140,7 @@ python specialized_classifiers.py
 
 ---
 
-### 5. Validate on Unseen Datasets (Section 5.5)
+### 5. Validate on Unseen Datasets
 
 Runs the full validation pipeline on the four held-out datasets (*wine*, *student performance*, *consumer electronic sales*, *visualizing_galaxy*), comparing the classifier-recommended imputation methods against all possible combinations (Q2 and Q3 baselines).
 
